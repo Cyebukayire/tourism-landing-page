@@ -389,11 +389,12 @@ nav .open .nav-right{
   background-size: cover;
   padding-top: 5rem;
   color: white;
+  /* background: url(../assets/img/header-bg1.png); */
   background-image: linear-gradient(
     to right bottom,
-    rgba(0, 2, 5, 0.301),
-    rgba(6, 10, 0, 0.075)
-),url(../assets/img/header-bg.png);
+    rgba(0, 2, 5, 0),
+    rgba(6, 10, 0, 0)
+),url(../assets/img/headerbg.png);
 }
 .hero-content{
   display: flex;
