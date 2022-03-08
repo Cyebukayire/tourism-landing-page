@@ -386,15 +386,16 @@ nav .open .nav-right{
 
 /* Hero */
 .hero{
-  background-size: cover;
+  /* background-color: rgba(241, 114, 11, 0.52);; */
+  /* background-size: cover; */
   padding-top: 5rem;
   color: white;
   /* background: url(../assets/img/header-bg1.png); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to right bottom,
     rgba(0, 2, 5, 0),
     rgba(6, 10, 0, 0)
-),url(../assets/img/headerbg.png);
+),url(../assets/img/headerbg.png); */
 }
 .hero-content{
   display: flex;
@@ -407,12 +408,13 @@ nav .open .nav-right{
 .hero-title{
   font-size: 6.4rem;
   font-family: 'Playfair Display', serif;
-  color: --ebony-clay;
+  color: rgba(0, 84, 69, 0.9);
+  /* color: --ebony-clay; */
 }
 .hero-subtitle{
   margin-top: 3rem;
-  /* color: --ebony-clay; */
-  color: #95EFCD;
+  /* color: white; */
+  color: rgba(0, 84, 69, 0.7);
   font-size: 2.2rem;
   font-weight: 600;
   font-family:'Inter', "Myriad pro Semibold",sans-serif;
@@ -497,7 +499,7 @@ nav .open .nav-right{
   font-family: "Playfair Display", serif;
 }
 .view-all,.read-more{
-  color: --tree-poppy;
+  color: rgba(0, 84, 69, 0.7);
   font-size: 1.7rem;
   font-family: "Inter", sans-serif;
   font-weight: bold;
