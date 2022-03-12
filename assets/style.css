@@ -44,7 +44,7 @@ a {
 }
 .container{
   width: 100%;
-  max-width: 100rem;
+  max-width: 115rem;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
@@ -446,7 +446,7 @@ nav .open .nav-right{
   padding:1.5rem 6rem;
   background-color: --tree-poppy;
   /* color: --white; */
-  color: #015144;
+  color: #EF6E09;
   cursor: pointer;
 }
 .btn-explore:hover{
@@ -467,6 +467,9 @@ nav .open .nav-right{
 }
 .section-text{
   padding: 0 3rem;
+}
+.section-2{
+  margin-left: 20rem;
 }
 .section-text .btn{
     padding: 1.5rem 3rem;
