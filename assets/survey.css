@@ -170,14 +170,14 @@
   }
 
 
-  @media (max-width: 584px) {
+  @media (max-width: 884px) {
     .container {
       max-width: 100%;
     }
   
     form .user-details .input-box {
       margin-bottom: 15px;
-      width: 100%;
+      /* width: 100%; */
     }
   
     form .gender-details .category {
@@ -185,7 +185,7 @@
     }
   
     .container form .user-details {
-      max-height: 300px;
+      max-height: 400px;
       overflow-y: scroll;
     }
   
